@@ -15,7 +15,7 @@ function find(list, fn) {
 	return undefined;
 }
 
-function getValue(tag, meta, num) {
+function getValue(tag, meta = {}, num) {
 	const scope = this.scopeList[num];
 	if (this.root.finishedResolving) {
 		let w = this.resolved;
@@ -61,7 +61,7 @@ function getValue(tag, meta, num) {
 	return result;
 }
 
-function getValueAsync(tag, meta, num) {
+function getValueAsync(tag, meta = {}, num) {
 	const scope = this.scopeList[num];
 	// search in the scopes (in reverse order) and keep the first defined value
 	let parser;
