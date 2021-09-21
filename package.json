@@ -1,14 +1,12 @@
 {
-  "name": "docxtemplater",
+  "name": "@baitic/docxtemplater",
   "version": "3.25.2",
   "author": "Edgar Hipp",
   "description": "docx and pptx generator working with templates and data (like Mustache, for Word and Powerpoint documents)",
   "contributors": [
-    {
-      "name": "Edgar Hipp"
-    }
+    "Edgar Hipp"
   ],
-  "main": "js/docxtemplater.js",
+  "main": "es6/docxtemplater.js",
   "keywords": [
     "docx",
     "pptx",
@@ -18,10 +16,10 @@
     "microsoft powerpoint",
     "report"
   ],
-  "types": "./js/docxtemplater.d.ts",
+  "types": "./es6/docxtemplater.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/open-xml-templating/docxtemplater"
+    "url": "git+https://github.com/open-xml-templating/docxtemplater.git"
   },
   "dependencies": {
     "@xmldom/xmldom": "^0.7.5"
@@ -106,5 +104,14 @@
         "DOM"
       ]
     }
+  },
+  "bugs": {
+    "url": "https://github.com/open-xml-templating/docxtemplater/issues"
+  },
+  "homepage": "https://github.com/open-xml-templating/docxtemplater#readme",
+  "directories": {
+    "doc": "docs",
+    "example": "examples",
+    "test": "test"
   }
 }

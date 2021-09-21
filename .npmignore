@@ -16,7 +16,6 @@
 /*.pptx
 browser
 cli
-es6
 ISSUE_TEMPLATE.md
 vendor
 *.yml
@@ -38,3 +37,6 @@ browser-demo
 /js/tests/*.xml
 .stryker-tmp
 reports
+.editorconfig
+.eslintignore
+.eslintrc
